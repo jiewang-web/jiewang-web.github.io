@@ -2,5 +2,5 @@
 *.out
 
 #Mac goo
-.DS_Store
+*.DS_Store
 
