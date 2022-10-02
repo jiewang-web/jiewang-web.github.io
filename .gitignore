@@ -1,0 +1,6 @@
+# temporary files
+*.out
+
+#Mac goo
+.DS_Store
+
