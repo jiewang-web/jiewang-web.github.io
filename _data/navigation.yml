@@ -1,0 +1,22 @@
+# main links
+main:
+  - title: "About"
+    url: https://jiewang-web.github.io
+
+  # - title: "Projects"
+  #   url: /_pages/projects/
+
+  - title: "Publications"
+    url: /_pages/publications/
+
+  - title: "Awards"
+    url: /_pages/awards/
+
+  # - title: "Resources"
+  #   url: /_pages/resources/
+
+  # - title: "Service"
+  #   url: /_pages/services/
+
+  - title: "CV"
+    url: /_pages/files/JieWang_CV.pdf
