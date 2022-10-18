@@ -15,8 +15,8 @@ main:
   # - title: "Resources"
   #   url: /_pages/resources/
 
-  # - title: "Service"
-  #   url: /_pages/services/
+  - title: "Service"
+    url: /_pages/services/
 
   - title: "CV"
     url: "/_pages/files/JieWang_CV.pdf"
