@@ -1,31 +1,31 @@
 ---
-layout: default
+layout: archive
 title: "Publications"
-permalink: /publications.html
+permalink: /_pages/pub.html
 author_profile: true
 papers_years: [2022,2021,2019,2018]
 ---
 
-{% for x in page.papers_years %}
-<h3> {{ x.year }} </h3>
+{% for yr in page.papers_years %}
+<h3> {{ yr }} </h3>
 <ol>
     {% for paper in page.papers %}
-        {% if paper.year == x.year %}
+        paper
+        {% if paper.year == yr %}
             <li>
                 {% if paper.url %}
-                    <p>{{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
+                    {{ paper.authors }}, <a href="{{ paper.url }}">{{ paper.title }}</a>, {{ paper.conference }}.
                 {% else %}
-                    <p>{{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
+                    {{ paper.authors }}, "{{ paper.title }}", {{ paper.conference }}.
                 {% endif %}
                 {% if paper.extra_title %}
                     (<a href="{{ paper.extra_url }}">{{ paper.extra_title }}</a>).
                 {% endif %}
-                </p>
             </li>
         {% endif %}
     {% endfor %}
 </ol>
 {% endfor %}
 
-<h5> Copyright notices </h5>
+<h6> Copyright notices </h6>
 <small> IEEE Copyrighted material: Personal use of this material is permitted. However, permission to reprint/republish this material for advertising or promotional purposes or for creating new collective works for resale or redistribution to servers or lists, or to reuse any copyrighted component of this work in other works, must be obtained from the IEEE. Contact: Manager, Copyrights and Permissions / IEEE Service Center / 445 Hoes Lane / P.O. Box 1331 / Piscataway, NJ 08855-1331, USA. Telephone: +1-908-562-3966. ACM Copyrighted material: Copyright ACM. This is the author's version of the work. It is posted here by permission of ACM for your personal use. Not for redistribution. The definitive version was published by the ACM.</small>

@@ -73,7 +73,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : CuDaPoXFUXZJvm4Yk6VOF2PLxQjaHmHAemVGlrs4GMU
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -143,7 +143,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/Jie54459721
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -151,8 +151,8 @@ footer:
       icon: "fab fa-fw fa-github"
       # url:
     - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+      icon: "fab fa-fw fa-gitlab-square"
+      url: "https://gitlab.flux.utah.edu/Jie_Wang"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
