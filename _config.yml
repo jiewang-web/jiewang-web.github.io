@@ -151,7 +151,7 @@ footer:
       icon: "fab fa-fw fa-github"
       # url:
     - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab-square"
+      icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.flux.utah.edu/Jie_Wang"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
