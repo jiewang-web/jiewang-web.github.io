@@ -1,0 +1,42 @@
+---
+layout: single
+title: "Tutorials"
+permalink: /_pages/tutorials/
+author_profile: true
+classes: wide
+---
+<!-- <style>
+img.img_responsive{width:auto;height:180px;display:block}
+</style> -->
+
+<h2>Shout Experiment on <a href="https://powderwireless.net/index">POWDER</a></h2>
+<div>
+    <img src="/imgs/shout_tut.png" width="350px" alt="Shout Tool" style="vertical-align: bottom;">
+    <a href="https://www.youtube.com/watch?v=LnP3cfLgvoA&ab_channel=NealPatwari" class="btn btn--success" onclick="window.open(this.href, 'window'); return false;">Video</a>
+    <a href="https://gitlab.flux.utah.edu/frost/shout" class="btn btn--info"  onclick="window.open(this.href, 'window'); return false;">Code</a>
+    <hr style="width:40%">
+    <p>
+        Shout is a profile and software that controls one compute node as an "orchestrator". The orchestrator then sends commands to other compute-enabled software-defined radio (SDR) nodes distributed in Salt Lake City, telling each node when to transmit (and what signal), and when to receive, in a coordinated & scheduled fashion.
+    </p>
+    <p>
+        The tutorial session talks about how to use a Shout-embedded profile to instantiate an experiment on POWDER, access the nodes, and run the Shout networking process for user-defined communication tasks. 
+    </p>
+</div>
+<h2>OFDM Communication Tutorial on POWDER</h2>
+<div>
+    <img src="/imgs/ofdm.png" width="500px" alt="OFDM tutorial" style="vertical-align: bottom;">
+    <a href="https://gitlab.flux.utah.edu/Jie_Wang/ofdm-communication-on-powder" class="btn btn--info"  onclick="window.open(this.href, 'window'); return false;">Repo</a>
+    <hr style="width:40%">
+    <p>
+        This is an OFDM transception tutorial that aims to provide users with a hands-on OFDM communication experience on the POWDER testbed. It is for two nodes to communicate with each other over OFDM modulation.
+    </p>
+</div>
+<h2>LoRa Communication Tutorial on POWDER</h2>
+<div>
+    <img src="/imgs/lora.png" width="500px" alt="LoRa" style="vertical-align: bottom;">
+    <a href="https://gitlab.flux.utah.edu/Jie_Wang/gr_lora_sdr_powder" class="btn btn--info"  onclick="window.open(this.href, 'window'); return false;">Repo</a>
+    <hr style="width:40%">
+    <p>
+        This tutorial is a GNU Radio implementation of LoRa communication. The LoRa transceivers are able to operate correctly at very low SNRs, even lower than the noise floor. Detailed installation steps and common errors are included for the benefit of POWDER users. The technical implementation can be found at <a href="https://ieeexplore.ieee.org/abstract/document/9154273">link</a>.
+    </p>
+</div>

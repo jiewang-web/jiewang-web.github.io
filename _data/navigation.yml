@@ -12,8 +12,8 @@ main:
   - title: "Awards"
     url: /_pages/awards/
 
-  # - title: "Resources"
-  #   url: /_pages/resources/
+  - title: "Tutorials"
+    url: /_pages/tutorials/
 
   - title: "Service"
     url: /_pages/services/
