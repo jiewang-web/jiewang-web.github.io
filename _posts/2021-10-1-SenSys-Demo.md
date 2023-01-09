@@ -1,5 +1,5 @@
 ---
-title: 'iREDEFINE Workshop'
+title: "Paper Accepted at SenSys'21"
 date: 2021-10-16
 ---
 
