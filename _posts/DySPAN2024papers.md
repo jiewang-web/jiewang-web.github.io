@@ -1,0 +1,6 @@
+---
+title: "2024 DySPAN papers"
+date: 2024-02-03
+---
+
+<span style="font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Three papers accepted to DySPAN 2024:** Happy to share that three spectrum sharing works have been accepted to [*DySPAN 2024*](https://dyspan2024.ieee-dyspan.org/) and will be presented this May in Washington, DC!</span>
